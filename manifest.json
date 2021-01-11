@@ -1,0 +1,21 @@
+{
+    "name": "Suggessful",
+    "version": "1",
+    "description": "Find similar websites!",
+    "options_page": "options.html",
+    "permissions": ["storage", "declarativeContent", "activeTab"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "page_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+
+        }
+    },
+    "icons":{
+
+    },
+    "manifest_version": 2
+}
